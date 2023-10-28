@@ -16,7 +16,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!\n')
+    print(f"Hello! Let's explore some US bikeshare data!\n")
     # 1- check for input validation for city
     # ask the user to input city (chicago (ch), new york city (ny), washington(w)
     while True:
@@ -121,18 +121,18 @@ def station_stats(df):
 
     # TO DO: display most commonly used start station
     most_common_start = df['Start Station'].mode()[0]
-    print('The most commonly used start station is', most_common_start) 
+    print(f"The most commonly used start station is {most_common_start}") 
 
     # TO DO: display most commonly used end station
     most_common_end = df['End Station'].mode()[0]
-    print('The most commonly used end station is', most_common_end)
+    print(f"The most commonly used end station is {most_common_end}")
 
     # TO DO: display most frequent combination of start station and end station trip
-    common_trip = 'from' + df['Start Station'] +" to "+ df['End Station'].mode()[0]
-    print('Most frequent combination of start station and end station trip', common_trip)
+    common_trip = f"from {df['Start Station']}   to  df['End Station'].mode()[0] "
+    print(f'Most frequent combination of start station and end station trip {common_trip})
 
     
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took time.time() - start_time} seconds.)
     print('-'*40)
 
 
@@ -149,7 +149,7 @@ def trip_duration_stats(df):
     mean_travel_time = df['Trip Duration'].mean()
     print('Mean travel time is', mean_travel_time)
     
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {time.time() - start_time} seconds.")
     print('-'*40)
 
 
@@ -174,7 +174,7 @@ def user_stats(df):
     except:
         print('No filter with gender allowed in Washington city!')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {time.time() - start_time} seconds.")
     print('-'*40)
 
 # Asking if the user want show more data
