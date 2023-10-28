@@ -13,6 +13,7 @@
         └── bikeshare.py
         └── README.py
 
-<!-- ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted. -->
+### Credits
+    I am given credits to [Udacity](https://www.udacity.com) for making me a part of this and for the impact and guide they provided me to become a version control professional
+    I also appreciate my colleagues,classmates and mentors for all their support
 

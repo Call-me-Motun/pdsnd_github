@@ -190,6 +190,10 @@ def ask_more_data(df):
     return df
 
 def main():
+    """ The main power function
+        Connect all functional programs and returns the analysis of user selected inputs
+        Return None.
+    """
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
