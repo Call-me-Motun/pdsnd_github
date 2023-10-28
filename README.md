@@ -6,7 +6,9 @@
 
 ### Description
     I've learned about version control and GitHub and here, I am putting this knowledge into practice! In this project, I'll be simulating a realistic workflow to refactor my previous BikeShare project using Git.
-
+*   I have learned to stage changes
+*   I have learned to commit changes 
+*   I have learned about branching and merging
 ### Files used
         PDSND_GITHUB/
         ├── .gitignore
