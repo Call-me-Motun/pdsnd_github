@@ -175,7 +175,7 @@ def user_stats(df):
         print('No filter with gender allowed in Washington city!')
 
     print(f"\nThis took {time.time() - start_time} seconds.")
-    print('-'*40)
+go    print('-'*40)
 
 # Asking if the user want show more data
 def ask_more_data(df):
